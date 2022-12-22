@@ -1,0 +1,16 @@
+
+#TO Run app.py use this command
+
+uvicorn app:app --reload
+
+
+#To PredictLoan
+
+http://127.0.0.1:8000/predictLoan?Gender=1&Married=1&Dependents=2&Education=1&Self_Employed=2&ApplicantIncome=234&CoapplicantIncome=134&Loan_Amount_Term=6&Credit_History=0&Property_Area=1
+
+
+
+problems
+
+InternalServeError
+
